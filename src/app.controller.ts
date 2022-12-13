@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import { PrismaService } from './prisma.service';
 import { randomUUID } from 'crypto';
 
-@Controller()
+@Controller('notifications')
 export class AppController {
   constructor(private readonly prisma: PrismaService) {}
 
